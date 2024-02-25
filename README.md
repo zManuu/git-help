@@ -6,6 +6,7 @@ A small collection of git explenations
 ``git add <PATH>`` - add files to tracked files  
 ``git commit -m "<MESSAGE>"`` - create a commit containing tracked files  
 ``git push`` - push to the remote repository  
+``git reset --hard HEAD`` - rollback to last commit  
 
 ## Configuration
 ``git config --list`` - lokale config anzeigen  
