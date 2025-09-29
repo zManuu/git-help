@@ -8,6 +8,7 @@ A small collection of git explenations
 ``git commit -m "<MESSAGE>"`` - create a commit containing tracked files  
 ``git push`` - push to the remote repository  
 ``git reset --hard HEAD`` - rollback to last commit  
+``git reset --mixed HEAD~1`` - undo last commit (all changes will be unstaged)
 
 ## Configuration
 ``git config --list`` - lokale config anzeigen  
