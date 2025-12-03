@@ -11,7 +11,8 @@ A small collection of git explenations
 ``git pull --rebase`` - pull (rebase mode)  
 ``git push`` - push to remote  
 ``git reset --hard HEAD`` - rollback to last commit  
-``git reset --mixed HEAD~1`` - undo last commit (all changes will be unstaged)
+``git reset --mixed HEAD~1`` - undo last commit (all changes will be unstaged)  
+``git revert <COMMIT_HASH>`` - revert a commit (creates a commit to revert)
 
 ## Branches
 ``git branch`` - show branches  
